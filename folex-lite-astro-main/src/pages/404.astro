@@ -1,0 +1,26 @@
+---
+import Base from "@/layouts/Base.astro";
+import CustomButton from "@/components/CustomButton.astro";
+---
+
+<Base title="Page Not Found" disableTagline={true} fitToScreen={false}>
+  <section>
+    <div class="container">
+      <div class="flex flex-col items-center gap-y-10">
+        <div class="space-y-4 text-center text-lg">
+          <h1 class="text-8xl font-bold sm:text-9xl md:text-[16rem]">404</h1>
+          <h2 class="text-h1-sm md:text-h1">Veo quie andas un poco perdido...</h2>
+          <p>
+            Parece que el enlace que seguiste está roto o la página ha sido eliminada.
+          </p>
+        </div>
+        <CustomButton
+          hoverEffect="creative-fill"
+          class="effect-color-accent uppercase"
+          label="Volver al inicio"
+          url="/"
+        />
+      </div>
+    </div>
+  </section>
+</Base>

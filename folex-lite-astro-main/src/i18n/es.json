@@ -1,0 +1,21 @@
+{
+    "common": {
+        "viewDetails": "Ver Detalles",
+        "learnMoreAbout": "Aprender más sobre",
+        "paginationPrevious": "Anterior",
+        "paginationNext": "Siguiente",
+        "paginationPortfolioPrev": "Portafolio Anterior",
+        "paginationPortfolioNext": "Portafolio Siguiente"
+    },
+    "headerOffcanvas": {
+        "description": "EDiseño y desarrollo sitios web que convierten visitas en clientes reales.",
+        "buttonLabel": "Hablemos"
+    },
+    "navigation": {
+        "buttonLabel": "Comenzar"
+    },
+    "footer": {
+        "copyright": "Copyright © {{ year }} por CamposDigital Soluciones, Todos los derechos reservados.",
+        "_comment": ""
+    }
+}
