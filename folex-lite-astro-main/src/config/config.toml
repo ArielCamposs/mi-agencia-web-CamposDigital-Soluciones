@@ -4,7 +4,7 @@
   description      = "Una agencia web creada por Ariel Campos, para mejorar tus ventas a través de sitios web personalizables" # Shared description for SEO and OpenGraph
   tagline          = "Tema de Negocios para Agencia Creativa y Portafolio Personal"
   taglineSeparator = "" # default is " - " 
-  baseUrl          = "https://folex-lite-astro.vercel.app/" # Base URL for the site and used in OpenGraph meta tags.
+  baseUrl          = "https://camposdigital-soluciones.vercel.app/" # Base URL for the site and used in OpenGraph meta tags.
   logo             = "" # Path to the site's logo
   logoAlternate    = "" # Path to the site's alternate logo
   logoText         = "CamposDigitalSoluciones" # Text displayed next to the logo
