@@ -143,7 +143,7 @@ async function cleanupMenuFiles() {
 
   await Promise.all(
     files
-      .filter((file) => file.startsWith("menu.") && file !== "menu.en.json")
+      .filter((file) => file.startsWith("menu.") && file !== `menu.${DEFAULT_LANG}.json`)
       .map(async (file) => {
         const filePath = path.join(CONFIG_DIR, file);
         await fs.unlink(filePath);
@@ -166,7 +166,7 @@ async function cleanupI18nFiles() {
 
   await Promise.all(
     files
-      .filter((file) => file !== "en.json")
+      .filter((file) => file !== `${DEFAULT_LANG}.json`)
       .map(async (file) => {
         const filePath = path.join(I18N_DIR, file);
         await fs.unlink(filePath);
